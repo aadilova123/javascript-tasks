@@ -1,0 +1,20 @@
+#block{
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    border-radius: 50px;
+    
+}
+
+#ans{
+    font-weight:bold;
+    font-size:48px;
+    line-height:56px;
+    text-transform:uppercase;
+    height:100%;
+    width:calc(100% - 360px);
+    text-align: center;
+    font-size: larger;
+    padding-left: 200px;
+    padding-bottom: 500px;
+}

@@ -1,0 +1,112 @@
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css.css">
+    <title>Bookshop: Buy books online. Support local bookstores.</title>    
+</head>
+
+<body>
+			<div class="header">
+				<div class="logo">
+					<a href="index.html">
+                        <img src="img/log.png" alt="logo">
+					</a>
+				</div>
+				<div class="tabs">
+					<ul class="tab__links">
+						<li class="tab__link tab__link_active">Bestseller</li>
+						<li class="tab__link">Education</li>
+						<li class="tab__link">History</li>
+						<li class="tab__link">Fiction</li>
+						<li class="tab__link">Cooking</li>
+					</ul>
+				</div>
+				<button id = "btn" class="btn contact">
+					Contact with us
+				</button>
+			</div>
+	
+	<div class="preview">
+        <div class="container">
+                <div class="tabcontent">
+                    <img src="img/best.jpg" alt="Bestseller">
+                    <div class="tabcontent__descr">
+                        A bestseller is a book or other media noted for its top selling status, with bestseller lists published by newspapers, magazines, and book store chains.Some books have sold many more copies than current "bestsellers", but over a long period of time.
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/edu.jpg" alt="education">
+                    <div class="tabcontent__descr">
+                        A textbook is a comprehensive compilation of content in a branch of study. Textbooks are produced to meet the needs of educators, usually at educational institutions. Schoolbooks are textbooks and other books used in schools.
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/his.jpg" alt="history">
+                    <div class="tabcontent__descr">
+                        History (from Greek ἱστορία, historia, meaning "inquiry; knowledge acquired by investigation") is the study of the past. Events occurring before the invention of writing systems are considered prehistory.
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/ff.jpg" alt="fiction">
+                    <div class="tabcontent__descr">
+                        A work of fiction is created in the imagination of its author. The author invents the story and makes up the characters, the plot or storyline, the dialogue and sometimes even the setting. A fictional work does not claim to tell a true story.
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/ck.jpeg" alt="cook">
+                    <div class="tabcontent__descr">
+                        Cook the books is a slang term for using accounting tricks to make a company's financial results look better than they really are. Typically, cooking the books involves manipulating financial data to inflate a company's revenue, deflate expenses, and pump up profit.
+                    </div>
+                </div>
+                
+             
+            </div>
+        </div>
+        <div class="modal" >
+            <div class="modal__dialog">
+                <div class="modal__content">
+                    <form action="#">
+                        <div class="modal__close">&times;</div>
+                        <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                        <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                        <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                        <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="offer__slider">
+            <div class="offer__slider-counter">
+                <div class="offer__slider-prev">
+                    <img src="left.svg" alt="prev">
+                </div>
+                <span id="current">03</span>
+                /
+                <span id="total">04</span>
+                <div class="offer__slider-next">
+                    <img src="right.svg" alt="next">
+                </div>
+            </div>
+        <div class="offer__slider-wrapper">
+            <div class="offer__slide">
+                <img src="img/best.jpg" >
+            </div>
+            <div class="offer__slide">
+                <img src="img/bestsel.jpg">
+            </div>
+            <div class="offer__slide">
+                <img src="img/edu.jpg">
+            </div>
+            <div class="offer__slide">
+                <img src="img/his.jpg">
+            </div>
+        </div>
+
+
+          <script src="main.js"></script>
+         
+</body>
+
+</html>
